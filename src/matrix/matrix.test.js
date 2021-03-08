@@ -28,7 +28,7 @@ test("Checking Row and Column if they are in range", () => {
 test("Checking Row and Column if they have the bingo Number", () => {
   const bingoSize = 3,
     array = [{ number: 1 }, { number: 2 }, { number: 3 }],
-    bingoNumber = 2;
+    bingoNumber = 5;
   expect(
     CheckBingoRowCol({
       array: array,
