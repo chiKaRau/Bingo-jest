@@ -1,4 +1,4 @@
-import { CheckRowColInRange, CheckBingoRowCol } from "./matrix";
+import { CheckRowColInRange, CheckBingoRowCol } from "./matrix.js";
 
 test("Checking Row and Column if they are in range", () => {
   const tableSize = 3,
